@@ -1,0 +1,63 @@
+.container{
+    margin: 20px auto;
+    max-width: 1000px;
+    font-family: sans-serif;
+}
+.container div {
+    font-size: 1em;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.top{
+    display: flex;
+    flex-flow: row wrap;
+    height: 25px;
+}
+.header{
+    flex-grow: 1;
+    background-color: rgb(2, 0, 28); 
+    align-items: center; 
+}
+.menu{
+    flex-grow: 2;
+    background-color: rgb(246, 61, 61);
+    align-items: center; 
+}
+.info{
+    background-color: royalblue;
+    height: 300px;
+    align-items: center; 
+}
+.body{ 
+    display: flex;
+    flex-flow: row wrap;
+    height: 150px;
+}
+.body2{
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+}
+.main{
+    background-color: rgb(0, 21, 83);
+    flex-grow: 1;
+    align-items: center; 
+}
+.img{
+    background-color: rgb(135, 235, 215);
+    flex-grow: 1;
+    align-items: center; 
+}
+.extra{
+    background-color: rgb(56, 195, 125);
+    flex-grow: 1;
+    align-items: center; 
+}
+.banner{
+    background-color: rgb(220, 220, 90);
+    height: 30px;
+    align-items: center; 
+}
